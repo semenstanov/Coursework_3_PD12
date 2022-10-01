@@ -1,0 +1,21 @@
+02-Oct-22 01:05:44 [INFO] Loading dictionaries from C:\Users\mail4\PycharmProjects\Coursework_3_PD12\venv\lib\site-packages\pymorphy2_dicts_ru\data
+02-Oct-22 01:05:44 [INFO] format: 2.4, revision: 417127, updated: 2020-10-11T15:05:51.070345
+02-Oct-22 01:05:44 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+02-Oct-22 01:05:44 [INFO] [33mPress CTRL+C to quit[0m
+02-Oct-22 01:05:49 [INFO] Запрос /api/posts/1
+02-Oct-22 01:05:49 [INFO] 127.0.0.1 - - [02/Oct/2022 01:05:49] "GET /api/posts/1 HTTP/1.1" 200 -
+02-Oct-22 01:05:53 [INFO] Запрос /api/posts/10
+02-Oct-22 01:05:53 [INFO] 127.0.0.1 - - [02/Oct/2022 01:05:53] "GET /api/posts/10 HTTP/1.1" 200 -
+02-Oct-22 01:06:15 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:15] "GET / HTTP/1.1" 200 -
+02-Oct-22 01:06:15 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+02-Oct-22 01:06:15 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+02-Oct-22 01:06:15 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+02-Oct-22 01:06:17 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:17] "GET /bookmarks HTTP/1.1" 200 -
+02-Oct-22 01:06:18 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+02-Oct-22 01:06:18 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+02-Oct-22 01:06:18 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+02-Oct-22 01:06:20 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:20] "GET / HTTP/1.1" 200 -
+02-Oct-22 01:06:20 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:20] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+02-Oct-22 01:06:20 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+02-Oct-22 01:06:20 [INFO] 127.0.0.1 - - [02/Oct/2022 01:06:20] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
