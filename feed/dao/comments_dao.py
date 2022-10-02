@@ -13,10 +13,10 @@ class CommentsDAO:
     def get_comments_by_post_id(self, post_id: int) -> list[dict] | list:
         """Return all comments in a single post"""
         comments: list = []
-        if post_id not in range(0, 9):
+        if post_id not in range(1, 9):
             raise ValueError("Post not found")
         else:
             for comment in self.get_comments():
                 if post_id == comment['post_id']:
                     comments.append(comment)
-                return comments
+            return comments
