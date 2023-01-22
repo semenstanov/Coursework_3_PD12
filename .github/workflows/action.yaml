@@ -4,9 +4,7 @@ jobs:
   build_push:
     runs-on: ubuntu-latest
     steps:
-      - name: list directory
-        run: ls -la
       - name: clone code
         uses: actions/checkout@v2
-      - name: list directory 2
-        run: ls -la
+      - name: docker build
+        run: docker build -t stashunter/flask-app:$GITHUB_REF_NAME-$GITHUB_RUN_ID .
