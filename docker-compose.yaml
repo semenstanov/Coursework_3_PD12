@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+    image: stashunter/flask-app
+    ports:
+    - 80:80
