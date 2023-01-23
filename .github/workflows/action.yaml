@@ -32,3 +32,17 @@ jobs:
           source: "deploy/docker-compose.yaml"
           target: "homework_26_docker_ci"
           strip_components: 1
+
+  run_server:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: run_server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.HOST_USERNAME }}
+          password: ${{ secrets.HOST_PASSWORD }}
+          script: |
+            cd homework_26_docker_ci
+            echo ${{ secrets.HOST_PASSWORD }} | sudo -S docker-compose up -d
