@@ -18,11 +18,11 @@ jobs:
     needs: build_push
     steps:
       - name: clone code
-      uses: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: render configs
-      run: |
-        mkdir deploy
-        cat docker-compose-server.yaml | envsubst > deploy/docker-compose.yaml
+        run: |
+          mkdir deploy
+          cat docker-compose-server.yaml | envsubst > deploy/docker-compose.yaml
       - name: copy files to server
         uses: appleboy/scp-actions@master
         with:
