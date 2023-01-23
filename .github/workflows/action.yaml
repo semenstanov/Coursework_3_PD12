@@ -14,7 +14,7 @@ jobs:
         uses: py-actions/flake8@v2
         with:
           max-line-length: "120"
-          ignore: "W605, F541"
+          ignore: "W605", "F541"
 
   build_push:
     runs-on: ubuntu-latest
